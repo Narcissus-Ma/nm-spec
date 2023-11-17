@@ -236,16 +236,16 @@ importers:
         specifier: ^0.13.0
         version: 0.13.0
       narcissus-fe-commitlint-config:
-        specifier: ^1.0.1-alpha.0
+        specifier: ^1.0.0
         version: link:../commitlint-config
       narcissus-fe-eslint-config:
-        specifier: ^1.0.1-alpha.0
+        specifier: ^1.0.0
         version: link:../eslint-config
       narcissus-fe-markdownlint-config:
-        specifier: ^1.0.1-alpha.0
+        specifier: ^1.0.0
         version: link:../markdownlint-config
       narcissus-fe-stylelint-config:
-        specifier: ^1.0.1-alpha.0
+        specifier: ^1.0.0
         version: link:../stylelint-config
       ora:
         specifier: ^5.1.0
