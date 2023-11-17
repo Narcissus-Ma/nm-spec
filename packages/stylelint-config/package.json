@@ -1,6 +1,6 @@
 {
   "name": "narcissus-fe-stylelint-config",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "纳西索斯 CSS规范",
   "main": "index.js",
   "keywords": [

@@ -37,18 +37,18 @@
 
 ## :couch_and_lamp: 配套工具
 
-我们引入了多个业界流行的 `Linter` 作为规约文档的配套工具，并根据规约内容定制了对应的规则包，它们包括：
+我们引入了多个业界流行的 `Linter` 作为规范文档的配套工具，并根据规范内容定制了对应的规则包，它们包括：
 
-| 规约 | Lint 工具 | NPM包 |
+| 规范 | Lint 工具 | NPM包 |
 | -------- | -------- | -------- |
 | JavaScript 编码规范 <br/> TypeScript 编码规范  <br/> Node 编码规范   |  [ESLint](https://eslint.org/)   | [narcissus-fe-eslint-config](https://www.npmjs.com/package/narcissus-fe-eslint-config) |
 | CSS 编码规范     |  [stylelint](https://stylelint.io/)  | [narcissus-fe-stylelint-config](https://www.npmjs.com/package/narcissus-fe-stylelint-config) |
 | Git 规范    |  [commitlint](https://commitlint.js.org/#/)  | [narcissus-fe-commitlint-config](https://www.npmjs.com/package/narcissus-fe-commitlint-config) |
 | 文档规范     |  [markdownlint](https://github.com/DavidAnson/markdownlint)  | [narcissus-fe-markdownlint-config](https://www.npmjs.com/package/narcissus-fe-markdownlint-config) |
 
-<!-- [narcissus-nm-spec-cli](https://www.npmjs.com/package/narcissus-nm-spec-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
+[narcissus-nm-spec-cli](https://www.npmjs.com/package/narcissus-nm-spec-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规范的成本。
 
-您可以使用[narcissus-nm-spec-cli](https://www.npmjs.com/package/narcissus-nm-spec-cli) 方便地为项目接入全部规范。 -->
+您可以使用[narcissus-nm-spec-cli](https://www.npmjs.com/package/narcissus-nm-spec-cli) 方便地为项目接入全部规范。
 
 ## :email: 联系
 

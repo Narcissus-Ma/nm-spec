@@ -107,10 +107,10 @@ module.exports = {
       },
     ],
 
-    // 本条是对JS规约 no-unused-vars 的补充，防止React被错误地标记为未使用
+    // 本条是对JS规范 no-unused-vars 的补充，防止React被错误地标记为未使用
     'react/jsx-uses-react': ['error'],
 
-    // 本条是对JS规约 no-unused-vars 的补充，防止变量被错误地标记为未使用
+    // 本条是对JS规范 no-unused-vars 的补充，防止变量被错误地标记为未使用
     'react/jsx-uses-vars': 'error',
 
     // 不要使用危险属性
@@ -323,7 +323,7 @@ module.exports = {
     // 布尔类型的属性的命名约定，建议用 is 或 has 前缀
     'react/boolean-prop-naming': 'off',
 
-    // 禁止大小写拼写错误，该检测规则未写入规约
+    // 禁止大小写拼写错误，该检测规则未写入规范
     'react/no-typos': 'error',
 
     // JSX 属性或子元素强制使用花括号或禁止使用不必要的花括号

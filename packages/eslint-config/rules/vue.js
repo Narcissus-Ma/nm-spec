@@ -11,7 +11,7 @@ module.exports = {
     // eslint-disable，eslint-enable，eslint-disable-line，eslint-disable-next-line
     'vue/comment-directive': 'error',
 
-    // 本条是对JS规约 no-unused-vars 的补充，防止变量被错误地标记为未使用
+    // 本条是对JS规范 no-unused-vars 的补充，防止变量被错误地标记为未使用
     'vue/jsx-uses-vars': 'error',
 
     // 组件的 data 必须是一个函数

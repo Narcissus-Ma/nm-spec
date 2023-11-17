@@ -1,6 +1,6 @@
 {
   "name": "narcissus-fe-markdownlint-config",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "main": "index.json",
   "description": "纳西索斯 文档规范",
   "keywords": [

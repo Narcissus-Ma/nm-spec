@@ -11,11 +11,11 @@ author:
 
 # Git 规范
 
-## 1. Git 提交日志格式规约
+## 1. Git 提交日志格式规范
 
 ### 1.1. 前言
 
-为什么要对 `Git` 提交日志（`message`）的格式进行规约约束？
+为什么要对 `Git` 提交日志（`message`）的格式进行规范约束？
 
 1. 更方便、快捷地浏览和了解项目的历史信息。
 2. 有利于保证提交内容的独立性，避免把所有改动都放在一个提交里面。
@@ -128,7 +128,7 @@ subject 用来概括和描述本次提交的改动内容，需注意以下几点
 
 1. 时态方面使用一般现在时，不要用过去时态。
 2. 句式视情况而定，一般使用祈使句式。
-3. 标点方面遵循一般的文档格式规约。
+3. 标点方面遵循一般的文档格式规范。
 
 ### 1.5. message footer
 
@@ -198,7 +198,7 @@ BREAKING CHANGE: 为了组件 API 规范的统一，本次升级将 size 属性�
 继续使用 size="m" 可能会导致样式错误。
 ```
 
-## 2. Git 分支命名规约
+## 2. Git 分支命名规范
 
 ### 2.1. 分支模型选择的说明
 
@@ -217,7 +217,7 @@ BREAKING CHANGE: 为了组件 API 规范的统一，本次升级将 size 属性�
 * `fix-1379-component-insert-order`：修复 issue 1379 中提到的组件插入顺序 bug
 * `revert-14218-memory-leak-on-unmount`：回退版本解决 issue 14218 提到的组件卸载时内存泄露的问题
 
-> 注：该命名规约只针对新建的临时分支，不包括如 master、develop 等常驻分支
+> 注：该命名规范只针对新建的临时分支，不包括如 master、develop 等常驻分支
 
 ### 2.3. 多版本分支命名
 
@@ -226,9 +226,9 @@ BREAKING CHANGE: 为了组件 API 规范的统一，本次升级将 size 属性�
 > * `1.0.0-stable`
 > * `2.0.0-stable`
 
-其他开发过程中的分支命名参考上节 2.2 的分支命名规约。
+其他开发过程中的分支命名参考上节 2.2 的分支命名规范。
 
-## 3. Git tag 命名规约
+## 3. Git tag 命名规范
 
 `Git tag` 就是通过语义化的名称来给仓库标注一个个具体的节点。与此同时还可以根据标签名称来大致了解当前项目的兼容性和迭代情况。
 
@@ -243,7 +243,7 @@ BREAKING CHANGE: 为了组件 API 规范的统一，本次升级将 size 属性�
 
 1. [AngularJS 代码贡献指南][angular-contributing]
 2. [AngularJS Git Commit Message Conventions][angular-git-conventions]
-3. [Karma 的 Git 日志规约][karma-git-msg]
+3. [Karma 的 Git 日志规范][karma-git-msg]
 4. [StackOverflow - 在 Git 日志中我该用过去时态还是现在时态？][stackoverflow-git-msg]
 5. [一个成功的 Git 分支模型][a-successful-git-branching-model]
 6. [Git 基础打标签][git-basic-tag]

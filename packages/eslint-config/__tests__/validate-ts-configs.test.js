@@ -238,21 +238,21 @@ describe('Validate TS configs', () => {
     assert.strictEqual(config.env.node, true);
     assert.strictEqual(config.plugins.includes('node'), true);
 
-    // todo 下面的校验通不过，原因不明
+    // todo 下面的校验通不过，原因可能是没有发布
     // 验证已开启的 link 规则是否校验正常
-    // const results = await cli.lintFiles([filePath]);
-    // const { messages, errorCount, warningCount } = results[0];
-    // const ruleIds = Array.from(messages.map((item) => item.ruleId));
+    const results = await cli.lintFiles([filePath]);
+    const { messages, errorCount, warningCount } = results[0];
+    const ruleIds = Array.from(messages.map((item) => item.ruleId));
 
-    // assert.strictEqual(ruleIds.includes('node/prefer-promises/fs'), true);
-    // assert.strictEqual(ruleIds.includes('@typescript-eslint/no-unused-vars'), true);
-    // assert.strictEqual(ruleIds.includes('no-console'), true);
-    // assert.strictEqual(ruleIds.includes('no-var'), true);
-    // assert.strictEqual(ruleIds.includes('eol-last'), true);
-    // assert.equal(errorCount, 2);
-    // assert.equal(warningCount, 3);
+    assert.strictEqual(ruleIds.includes('node/prefer-promises/fs'), true);
+    assert.strictEqual(ruleIds.includes('@typescript-eslint/no-unused-vars'), true);
+    assert.strictEqual(ruleIds.includes('no-console'), true);
+    assert.strictEqual(ruleIds.includes('no-var'), true);
+    assert.strictEqual(ruleIds.includes('eol-last'), true);
+    assert.equal(errorCount, 2);
+    assert.equal(warningCount, 3);
 
     // 验证已关闭的 link 规则是否校验正常，以 @typescript-eslint/explicit-function-return-type 为例
-    // assert.strictEqual(ruleIds.includes('@typescript-eslint/explicit-function-return-type'), false);
+    assert.strictEqual(ruleIds.includes('@typescript-eslint/explicit-function-return-type'), false);
   });
 });

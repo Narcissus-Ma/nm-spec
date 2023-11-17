@@ -12,7 +12,7 @@ author:
 # JavaScript 编码规范
 
 :::tip
-`JavaScript` 编码规约主要包含编码风格、语言特性、注释、命名、配套工具等几个部分。本规范面向的 `ECMAScript` 语言版本是 `ES6+`。
+`JavaScript` 编码规范主要包含编码风格、语言特性、注释、命名、配套工具等几个部分。本规范面向的 `ECMAScript` 语言版本是 `ES6+`。
 :::
 
 ## 1. 编码风格
@@ -920,7 +920,7 @@ author:
 
 ### 2.2. 原始类型
 
-> `JS`的数据类型包括 7 种原始类型（primitive type），即 `Boolean`, `Null`, `Undefined`, `Number`, `String`, `Symbol` (ES6 新定义), `BigInt`（ES11新定义），以及 `Object` 类型，[了解更多](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)。这个章节主要介绍原始类型相关的规约。
+> `JS`的数据类型包括 7 种原始类型（primitive type），即 `Boolean`, `Null`, `Undefined`, `Number`, `String`, `Symbol` (ES6 新定义), `BigInt`（ES11新定义），以及 `Object` 类型，[了解更多](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)。这个章节主要介绍原始类型相关的规范。
 
 - 2.2.1.【强制】不要使用 `new Number/String/Boolean`。`eslint`: [no-new-wrappers](https://eslint.org/docs/rules/no-new-wrappers)
 
