@@ -6,7 +6,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "dev": "npm run copyfiles && tsc -w",
-    "build": "rm -rf lib && npm run copyfiles && tsc",
+    "build": "rimraf lib && npm run copyfiles && tsc",
     "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
     "test": "npm run build && jest",
     "coverage": "nyc jest --silent --forceExit",
@@ -94,5 +94,6 @@
   },
   "bugs": {
     "url": "https://github.com/narcissus-ma/nm-spec/issues"
-  }
+  },
+  "gitHead": "697558230c0cd5d9a09fbefe12698bc77b807196"
 }
