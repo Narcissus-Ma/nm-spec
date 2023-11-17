@@ -1,6 +1,6 @@
 {
   "name": "narcissus-fe-eslint-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "纳西索斯自定义eslint插件",
   "scripts": {
     "test": "jest",
